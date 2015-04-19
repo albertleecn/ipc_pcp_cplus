@@ -36,7 +36,7 @@
 		5013EB611AE2B81B005F6514 /* ThreadArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadArgs.h; sourceTree = "<group>"; };
 		5013EB631AE2BA97005F6514 /* ThreadPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadPC.cpp; sourceTree = "<group>"; };
 		5013EB641AE2BA97005F6514 /* ThreadPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPC.h; sourceTree = "<group>"; };
-		5052A64E1AE3CE53003D9AE8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		5052A64E1AE3CE53003D9AE8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ipc_pcp_cplus/README; sourceTree = "<group>"; };
 		505C17A41AE21EE700288239 /* goodPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goodPool.cpp; sourceTree = "<group>"; };
 		505C17A51AE21EE700288239 /* goodPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodPool.h; sourceTree = "<group>"; };
 		50BBAF311AE1FB9400FD489E /* ipc_pcp_cplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ipc_pcp_cplus; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +59,7 @@
 		50BBAF281AE1FB9400FD489E = {
 			isa = PBXGroup;
 			children = (
+				5052A64E1AE3CE53003D9AE8 /* README */,
 				50BBAF331AE1FB9400FD489E /* ipc_pcp_cplus */,
 				50BBAF321AE1FB9400FD489E /* Products */,
 			);
@@ -87,7 +88,6 @@
 				5013EB611AE2B81B005F6514 /* ThreadArgs.h */,
 				5013EB631AE2BA97005F6514 /* ThreadPC.cpp */,
 				5013EB641AE2BA97005F6514 /* ThreadPC.h */,
-				5052A64E1AE3CE53003D9AE8 /* README */,
 			);
 			path = ipc_pcp_cplus;
 			sourceTree = "<group>";
