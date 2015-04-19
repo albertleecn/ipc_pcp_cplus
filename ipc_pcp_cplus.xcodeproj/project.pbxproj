@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5013EB5F1AE27CF1005F6514 /* ProducerConsumerProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5013EB5D1AE27CF1005F6514 /* ProducerConsumerProblem.cpp */; };
+		5013EB621AE2B81B005F6514 /* ThreadArgs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5013EB601AE2B81B005F6514 /* ThreadArgs.cpp */; };
+		5013EB651AE2BA97005F6514 /* ThreadPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5013EB631AE2BA97005F6514 /* ThreadPC.cpp */; };
+		5052A64F1AE3CE53003D9AE8 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 5052A64E1AE3CE53003D9AE8 /* Readme.md */; };
+		505C17A61AE21EE700288239 /* goodPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 505C17A41AE21EE700288239 /* goodPool.cpp */; };
 		50BBAF351AE1FB9400FD489E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50BBAF341AE1FB9400FD489E /* main.cpp */; };
+		50BBAF3E1AE1FDD600FD489E /* good.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50BBAF3D1AE1FDD600FD489E /* good.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5013EB5C1AE27AAC005F6514 /* comm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comm.h; sourceTree = "<group>"; };
+		5013EB5D1AE27CF1005F6514 /* ProducerConsumerProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProducerConsumerProblem.cpp; sourceTree = "<group>"; };
+		5013EB5E1AE27CF1005F6514 /* ProducerConsumerProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProducerConsumerProblem.h; sourceTree = "<group>"; };
+		5013EB601AE2B81B005F6514 /* ThreadArgs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadArgs.cpp; sourceTree = "<group>"; };
+		5013EB611AE2B81B005F6514 /* ThreadArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadArgs.h; sourceTree = "<group>"; };
+		5013EB631AE2BA97005F6514 /* ThreadPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadPC.cpp; sourceTree = "<group>"; };
+		5013EB641AE2BA97005F6514 /* ThreadPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPC.h; sourceTree = "<group>"; };
+		5052A64E1AE3CE53003D9AE8 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		505C17A41AE21EE700288239 /* goodPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goodPool.cpp; sourceTree = "<group>"; };
+		505C17A51AE21EE700288239 /* goodPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = goodPool.h; sourceTree = "<group>"; };
 		50BBAF311AE1FB9400FD489E /* ipc_pcp_cplus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ipc_pcp_cplus; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BBAF341AE1FB9400FD489E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50BBAF3C1AE1FCDA00FD489E /* good.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = good.h; sourceTree = "<group>"; };
+		50BBAF3D1AE1FDD600FD489E /* good.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = good.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				50BBAF341AE1FB9400FD489E /* main.cpp */,
+				50BBAF3C1AE1FCDA00FD489E /* good.h */,
+				50BBAF3D1AE1FDD600FD489E /* good.cpp */,
+				505C17A41AE21EE700288239 /* goodPool.cpp */,
+				505C17A51AE21EE700288239 /* goodPool.h */,
+				5013EB5C1AE27AAC005F6514 /* comm.h */,
+				5013EB5D1AE27CF1005F6514 /* ProducerConsumerProblem.cpp */,
+				5013EB5E1AE27CF1005F6514 /* ProducerConsumerProblem.h */,
+				5013EB601AE2B81B005F6514 /* ThreadArgs.cpp */,
+				5013EB611AE2B81B005F6514 /* ThreadArgs.h */,
+				5013EB631AE2BA97005F6514 /* ThreadPC.cpp */,
+				5013EB641AE2BA97005F6514 /* ThreadPC.h */,
+				5052A64E1AE3CE53003D9AE8 /* Readme.md */,
 			);
 			path = ipc_pcp_cplus;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5052A64F1AE3CE53003D9AE8 /* Readme.md in Sources */,
+				50BBAF3E1AE1FDD600FD489E /* good.cpp in Sources */,
+				5013EB5F1AE27CF1005F6514 /* ProducerConsumerProblem.cpp in Sources */,
+				5013EB651AE2BA97005F6514 /* ThreadPC.cpp in Sources */,
+				505C17A61AE21EE700288239 /* goodPool.cpp in Sources */,
 				50BBAF351AE1FB9400FD489E /* main.cpp in Sources */,
+				5013EB621AE2B81B005F6514 /* ThreadArgs.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +271,7 @@
 				50BBAF3A1AE1FB9400FD489E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
