@@ -35,6 +35,11 @@ public:
     int getID();
     ///
     void clear();
+private:
+    ///
+    std::string toShortString();
+    ///
+    std::string toLongString();
 };
 
 #endif

@@ -75,14 +75,31 @@ bool Good::setGood(const Good *pGood){
 
 ///
 string Good::toString(){
+    return toShortString();
+}
+
+///
+string Good::toShortString(){
     ostringstream format_message;
     struct tm* ptime=gmtime(&_produce_time);
     format_message<<"G:id("<<_id<<"),p_id("<<_producer_id<<")";
     if (ptime!=NULL){
         format_message<<",time("
-              <<ptime->tm_year+1900<<"-"<<ptime->tm_mon<<"-"<<ptime->tm_mday
-              <<" "<<ptime->tm_hour<<":"<<ptime->tm_min
-              <<":"<<ptime->tm_sec<<")";
+        <<ptime->tm_hour<<":"<<ptime->tm_min
+        <<":"<<ptime->tm_sec<<")";
+    }
+    return format_message.str();
+}
+///
+string Good::toLongString(){
+    ostringstream format_message;
+    struct tm* ptime=gmtime(&_produce_time);
+    format_message<<"G:id("<<_id<<"),p_id("<<_producer_id<<")";
+    if (ptime!=NULL){
+        format_message<<",time("
+        <<ptime->tm_year+1900<<"-"<<ptime->tm_mon<<"-"<<ptime->tm_mday
+        <<" "<<ptime->tm_hour<<":"<<ptime->tm_min
+        <<":"<<ptime->tm_sec<<")";
     }
     return format_message.str();
 }
