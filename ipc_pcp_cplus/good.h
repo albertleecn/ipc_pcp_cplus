@@ -8,12 +8,14 @@
 
 #ifndef ipc_pcp_cplus_good_h
 #define ipc_pcp_cplus_good_h
+using namespace std;
 
 class Good{
+private:
     int _id;
     int _producer_id;
     time_t _produce_time;
-    
+    string _content;
 public:
     ///
     Good();

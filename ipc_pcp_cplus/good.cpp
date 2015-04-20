@@ -16,8 +16,7 @@ using namespace std;
 
 ///
 Good::Good(){
-        this->_id=INVALIDID;
-        this->_producer_id=INVALIDID;
+    clear();
 }
 
 ///
@@ -42,15 +41,14 @@ Good::Good(int aid, int aproducer_id, time_t aproduce_time){
 Good& Good::operator=( const Good * pGood){
     if (!pGood)
     {
-        this->_id=INVALIDID;
-        this->_producer_id=INVALIDID;
-        this->_produce_time=0;
+        clear();
     }
     else
     {
         this->_id=pGood->_id;
         this->_producer_id=pGood->_producer_id;
         this->_produce_time=pGood->_produce_time;
+        this->_content=pGood->_content;
     }
     return *this;
 }
@@ -98,6 +96,7 @@ int Good::getID(){
 void Good::clear(){
     this->_id=INVALIDID;
     this->_producer_id=INVALIDID;
+    this->_content.clear();
     this->_produce_time=0;
 }
 
