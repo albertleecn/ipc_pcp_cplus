@@ -20,7 +20,8 @@
 
 
 using namespace std;
-
+/*
+ */
 class ProducerConsumerProblem{
 public:
     int producersCnt;
